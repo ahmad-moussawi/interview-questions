@@ -1,12 +1,18 @@
 ## Backend
 - What is the CSRF attack, and how to prevent it? [5min]. 
 - What is the difference between compiled language and interpreted language with examples [5min].
+
 - How to implement a full text search within your webapp [5min] 
-  I expect the candidate to tell me about available technologies, and search engine availables
+  I expect the candidate to tell me about available technologies, and search engine availables like ElasticSearch, fulltext search, and when to use the relational db for this
+  
 - You've asked to implement a caching mechanism for a webapp, how would you do it.
+  I expect to hear about caching layers, strategies, and mediums like Redis, memcached, distributed cache, etc ...
+  
 - What is the difference between Yaml and JSON 
-- How to scale up your application
+- How to scale up your application in terms of availability
+
 - What is text encoding
+- What
 
 ## CSharp
 - What are the main differences between .net framework and .net core
@@ -21,6 +27,7 @@
 - What does `AsNoTracking()` method in EntityFramework
 - When do you use Lazy Loading, and is it recommended?
 - What is the discriminant
+- When not to use Entity Framework?
 
 ## Database
 - Is there any performance benefit from using Views
@@ -32,6 +39,8 @@
 - What is the difference between `querySelector` and `querySelectorAll` 
 - How to center a div in a page
 - What is the difference between absolute/relative position
+- How to detect if an element is visible within the view port in the screen
 
 ## Angular
-- How to implement site tracking
+- How to implement site tracking across the whole app
+  I expect a solution without changing the actual code, i.e. applying a global directive
